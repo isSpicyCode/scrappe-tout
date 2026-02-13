@@ -20,7 +20,34 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4"
 	},
-	"keywords": ["scraper", "playwright", "markdown", "web-scraping", "cli"],
-	"author": "scrappe-tout",
+	"keywords": [
+		"web-scraping",
+		"playwright",
+		"markdown",
+		"nodejs",
+		"rag",
+		"llm",
+		"documentation",
+		"scraper",
+		"playwright-scraper",
+		"html-to-markdown",
+		"web-scraping-tool",
+		"documentation-tool",
+		"ai",
+		"machine-learning",
+		"data-extraction",
+		"automation",
+		"cli-tool",
+		"crawler"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/isSpicyCode/scrappe-tout.git"
+	},
+	"bugs": {
+		"url": "https://github.com/isSpicyCode/scrappe-tout/issues"
+	},
+	"homepage": "https://github.com/isSpicyCode/scrappe-tout#readme",
+	"author": "isSpicyCode",
 	"license": "MIT"
 }
