@@ -1,0 +1,26 @@
+{
+	"name": "scrappe-tout",
+	"version": "1.1.0",
+	"type": "module",
+	"description": "Ultra-fast web scraper with Playwright - CLI options for continue/overwrite",
+	"scripts": {
+		"start": "node src/index.js",
+		"test": "node --test tests/**/*.test.js",
+		"test:e2e": "node --test tests/e2e/**/*.test.js",
+		"test:unit": "node --test tests/unit/**/*.test.js",
+		"test:coverage": "node --test --experimental-test-coverage tests/**/*.test.js",
+		"lint": "biome check .",
+		"lint:fix": "biome check . --write",
+		"format": "biome format . --write"
+	},
+	"dependencies": {
+		"mdream": "^0.15.3",
+		"playwright": "^1.58.2"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "^1.9.4"
+	},
+	"keywords": ["scraper", "playwright", "markdown", "web-scraping", "cli"],
+	"author": "scrappe-tout",
+	"license": "MIT"
+}
